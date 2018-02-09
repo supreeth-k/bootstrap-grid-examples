@@ -1,0 +1,25 @@
+.second{
+	background-color: green;
+}
+
+.first {
+	background-color: blue;
+}
+
+.third, .order-first {
+	background-color: red;
+}
+
+.col-md-5, .order-last {
+	background-color: grey;
+}
+
+.col-md-3, .order-second {
+	background-color: black;
+	color: white;
+}
+
+.col-md-2 {
+	background-color: white;
+	color: black;
+}
