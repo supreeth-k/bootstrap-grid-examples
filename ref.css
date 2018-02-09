@@ -22,3 +22,20 @@
 .col-md-2 {
 	background-color: aquamarine;
 }
+
+
+.ml-auto {
+	background-color:darkkhaki;
+}
+
+.mr-auto {
+	background-color:darkmagenta;
+}
+
+.ml-md-auto {
+	background-color:darksalmon;
+}
+
+.mr-md-auto {
+	background-color: darkslategrey;
+}
