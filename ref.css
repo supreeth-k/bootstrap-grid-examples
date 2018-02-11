@@ -39,3 +39,23 @@
 .mr-md-auto {
 	background-color: darkslategrey;
 }
+
+.start {
+	background-color: yellow;
+}
+
+.end {
+	background-color: teal;
+}
+
+.around {
+	background-color: thistle;
+}
+
+.center {
+	background-color: sandybrown;
+}
+
+.between {
+	background-color: sienna;
+}
