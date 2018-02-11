@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sample Layout</title>
+	<title>Bootstrap Grid System Examples</title>
 </head>
 
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
@@ -56,19 +56,19 @@
 	<div class="container-fluid third">
 		<div class="row">
 			<div class="col-md-1">
-				Col 1
+				Col-md-1
 			</div>
 
-			<div class="col-md-2">
-				Col 2 (2+1) = 3
+			<div class="col-md-2 bg-aqm">
+				Col-md-2 (2+1) = 3
 			</div>
 
 			<div class="col-md-3">
-				Col 3 (3+3) = 6
+				Col-md-3 (3+3) = 6
 			</div>
 
-			<div class="col-md-5">
-				Col 5 (6+5) = 11
+			<div class="col-md-5 bg-grey">
+				Col-md-5 (6+5) = 11
 			</div>
 
 			<div class="col-md-1">
@@ -83,16 +83,16 @@
 				Col 1
 			</div>
 
-			<div class="col-md-1 offset-md-1">
-				Col 1 offset 1 (1+1+1 =3)
+			<div class="col-md-2 offset-md-1 bg-palegreen">
+				Col 2 Offset 1 (1+2+1=4)
 			</div>
 
-			<div class="col-md-1 offset-md-3">
-				Col 1 offset 3 (3+1+3 = 7)
+			<div class="col-md-3 offset-md-2">
+				Col 3 Offset 2 (4+3+2=9)
 			</div>
 
-			<div class="col-md-1 offset-md-4">
-				Col 1 offset 4 (7+1+4=12)
+			<div class="col-md-2 offset-md-1 bg-aqm">
+				Col 2 Offset 1 (9+2+1=12)
 			</div>
 
 		</div>
@@ -100,13 +100,13 @@
 
 	 <div class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 order-second">
+			<div class="col-md-4 order-second bg-black">
 				Ordered second
 			</div>
-			<div class="col-md-4 order-last">
+			<div class="col-md-4 order-last bg-grey">
 				Ordered last
 			</div>
-			<div class="col-md-4 order-first">
+			<div class="col-md-4 order-first third">
 				Ordered first
 			</div>
 		</div>
@@ -114,11 +114,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 bg-black">
 				Col-md-3
 			</div>
 
-			<div class="col-md-5 ml-auto">
+			<div class="col-md-5 ml-auto bg-khaki">
 				Col-md-5 .ml auto
 			</div>
 		</div>
@@ -126,11 +126,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-2">
-				Col-md-2
+			<div class="col-md-3 bg-aqm">
+				Col-md-3
 			</div>
 
-			<div class="col-md-5 mr-auto">
+			<div class="col-md-5 mr-auto bg-magenta">
 				Col-md-5 .mr auto 
 			</div>
 		</div>
@@ -138,11 +138,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 first">
 				Col-md-3
 			</div>
 
-			<div class="col-md-5 ml-md-auto">
+			<div class="col-md-5 ml-md-auto bg-darksalmon">
 				Col-md-5 .ml-md auto
 			</div>
 		</div>
@@ -150,11 +150,11 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-5">
+			<div class="col-md-5 bg-grey">
 				Col-md-5
 			</div>
 
-			<div class="col-md-2 mr-md-auto">
+			<div class="col-md-2 mr-md-auto bg-palegreen">
 				Col-md-2 .mr-md auto
 			</div>
 		</div>
@@ -165,6 +165,7 @@
 			<div class="col-sm-3 start">
 				Content Justified Start column 1
 			</div>
+			
 			<div class="col-sm-3 start">
 				Content Justified Start column 2
 			</div>
@@ -183,36 +184,51 @@
 			<div class="col-sm-3 around">
 				Content Justified Around column 1
 			</div>
+
 			<div class="col-sm-3 around">
 				Content Justified Around column 2
 			</div>
+
 		</div>
 
 		<div class="row justify-content-center">
 			<div class="col-sm-3 center">
 				Content Justified Center column 1
 			</div>
+
 			<div class="col-sm-3 center">
 				Content Justified Center column 2
 			</div>
+
 		</div>
 
 		<div class="row justify-content-between">
 			<div class="col-sm-3 between">
 				Content Justified Between column 1
 			</div>
+
 			<div class="col-sm-3 between">
 				Content Justified Between column 2
 			</div>
+
 		</div>
-
-
-
 	</div>
 
-	
-
-
+	<div class="container-fluid overall">
+		<div class="row justify-content-center">
+			<div class="col-sm-10">
+				First level: col-sm-10
+				<div class="row level2">
+					<div class="col-sm-3 offset-sm-1">
+						Second level: col-sm-3 offset-sm-1
+					</div>
+					<div class="col-sm-3 offset-sm-3">
+						Second level : col-sm-3 offset-sm-3
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html>

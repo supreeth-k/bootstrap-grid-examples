@@ -6,38 +6,37 @@
 	background-color: blue;
 }
 
-.third, .order-first {
+.third {
 	background-color: red;
 }
 
-.col-md-5, .order-last {
+.bg-grey{
 	background-color: grey;
 }
 
-.col-md-3, .order-second {
+.bg-black{
 	background-color: black;
 	color: white;
 }
 
-.col-md-2 {
+.bg-aqm {
 	background-color: aquamarine;
 }
 
-
-.ml-auto {
+.bg-khaki {
 	background-color:darkkhaki;
 }
 
-.mr-auto {
+.bg-magenta {
 	background-color:darkmagenta;
 }
 
-.ml-md-auto {
+.bg-darksalmon {
 	background-color:darksalmon;
 }
 
-.mr-md-auto {
-	background-color: darkslategrey;
+.bg-palegreen {
+	background-color: palegreen;
 }
 
 .start {
@@ -59,3 +58,12 @@
 .between {
 	background-color: sienna;
 }
+
+.overall {
+	background-color: papayawhip;
+}
+
+.level2 {
+	background-color: peachpuff;
+}
+
